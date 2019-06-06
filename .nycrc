@@ -1,0 +1,20 @@
+{
+  "all": true,
+  "cache": false,
+  "extension": [
+    ".js",
+    ".ts"
+  ],
+  "exclude": [
+    "coverage/**",
+    "test/**"
+  ],
+  "reporters": [
+    "text",
+    "lcov",
+    "html"
+  ],
+  "require": [
+    "source-map-support/register"
+  ]
+}
